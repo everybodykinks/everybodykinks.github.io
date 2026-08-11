@@ -41,3 +41,16 @@ Social links currently point to:
 - https://www.instagram.com/everybodykinks/
 
 The Google Fonts import is optional; if you want the site to work without external font requests, remove the Google Fonts `<link>` tags from `index.html` and the site will fall back to system fonts.
+
+## Branding and mobile assets
+
+The site includes a matching visual identity and mobile/share assets:
+
+- `logo-horizontal.png` — primary logo
+- `favicon.ico` — multi-size browser favicon
+- `apple-touch-icon.png` — Apple home-screen icon
+- `android-chrome-192x192.png` / `android-chrome-512x512.png` — Android/PWA icons
+- `site.webmanifest` — install metadata for supported browsers
+- `social-preview.png` — 1200×630 Open Graph/social sharing image
+
+The HTML already references the favicon, Apple icon, web manifest, theme color, and social preview metadata.
