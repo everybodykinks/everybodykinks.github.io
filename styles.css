@@ -14,6 +14,7 @@ a{color:inherit}
 .nav-wrap{min-height:76px;display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:700;letter-spacing:-.03em;font-size:1.08rem}
 .brand>span:last-child span{color:var(--plum2)}
+.brand-logo{display:block;width:min(265px,48vw);height:auto;max-height:48px;object-fit:contain;object-position:left center}
 .brand-mark{width:36px;height:36px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(135deg,var(--plum),var(--rose));color:#fff;font-size:.62rem;letter-spacing:.02em}
 .site-nav{display:flex;gap:28px}
 .site-nav a{font-size:.88rem;color:var(--muted);text-decoration:none;transition:.2s}
